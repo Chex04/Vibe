@@ -1,13 +1,24 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
 header {
     width: 1920px;
     height: 93px;
-    left: 50px;
-    top: 50px;
     background: #363348;
 }
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 body {
-    font-family: 'TT Norms';
+    font-family: 'Tenor Sans', sans-serif;
 }
 .logo_block {
     position: absolute;
@@ -36,9 +47,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.li {
-    list-style: none;
 }
 .banner {
     position: absolute;
@@ -255,6 +263,8 @@ span {
     font-weight: 400;
 }
 .oval_1 {
+    height: 105px;
+    width: 105px;
     border-radius: 50%;
     border-style: solid;
     border-width: 5px;
